@@ -14,3 +14,18 @@
 
 
 ### Progress Log
+- first commit - installed scaffold
+
+- connected main.js to html, set up router. The last time I did this, I used Router and hashHistory from react-router, and used it as such
+```
+<Router history={hashHistory}>
+  ...
+</Router>
+```
+This no longer works, so I discovered the new way to do this by importing HashRouter from react-router-dom
+```
+<HashRouter>
+...
+</HashRouter>
+```
+Also added several js files for components later on

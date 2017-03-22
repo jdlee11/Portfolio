@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Route } from 'react-router-dom';
-import MainBody from "./components/mainBody";
+import { Router, Route, hashHistory } from 'react-router';
+import Body from "./components/body";
 
 let router = (
-  <Router>
-    <Route path="/" component={MainBody}>
+  <Router history={hashHistory}>
+    <Route path="/" component={Body}>
     </Route>
   </Router>
 );
