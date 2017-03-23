@@ -10,7 +10,5 @@ let router = (
   </Router>
 );
 
-console.log("loading");
-
 ReactDOM.render(router,
   document.getElementById('container'));

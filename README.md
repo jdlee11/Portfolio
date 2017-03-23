@@ -8,9 +8,10 @@
 - contact information
 - links to external sites
 - several examples of my work (thumbnails that link to live sites)
+- uses React as example of building HTML through JS
 
 ### Credits
-- Jess Scheuring (The Iron Yard) for project scaffolding
+- Jess Scheuring (The Iron Yard, github.com/nicerhugs) for the project scaffolding
 
 
 ### Progress Log
@@ -29,3 +30,5 @@ This no longer works, so I discovered the new way to do this by importing HashRo
 </HashRouter>
 ```
 Also added several js files for components later on
+
+- continued filling out React component structure
